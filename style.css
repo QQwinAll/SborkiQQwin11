@@ -1,0 +1,81 @@
+/* Сброс стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Стиль для хедера */
+header {
+    background-color: #0078D4;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Основной контент */
+main {
+    padding: 20px;
+}
+
+.downloads {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.download-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.download-item h3 {
+    color: #0078D4;
+    font-size: 1.8em;
+}
+
+.download-item p {
+    font-size: 1.1em;
+}
+
+.download-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0078D4;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.download-btn:hover {
+    background-color: #005A8C;
+}
+
+/* Футер */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
